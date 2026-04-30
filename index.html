@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/styles/style.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="src/styles/fontawesome/css/all.css">
+    <title>Portfolio Maxwell</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo-eu">
+                <img src="src/img/eu.png" alt="eu">
+                <h1 class="name">MAXWELL
+                    <span>RODRIGUES</span>
+                </h1>
+            </div>
+            <!-- INICIO NAVEGAÇÃO VERSÃO PC -->
+            <ul id="nav-list">
+                <li class="nav-list-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#about">Sobre mim</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#all-projects">Projetos</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#job">Serviços contratáveis</a>
+                </li>
+            </ul>
+            <!-- FIM NAVEGAÇÃO VERSÃO PC -->
+            <!-- INICIO NAVEGAÇÃO VERSÃO MOBILE -->
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile-menu">
+            <ul id="mobile-nav-list">
+                <li class="nav-list-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#about">Sobre mim</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#all-projects">Projetos</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#job">Serviços contratáveis</a>
+                </li>
+            </ul>
+        </div>
+        <!-- FIM NAVEGAÇÃO VERSÃO MOBILE -->
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <!-- INICIO RESUMO SOBRE MIM -->
+                <h1 class="hi">Olá, eu sou o <br>
+                    <span>Maxwell Rodrigues</span>
+                </h1>
+                <h2 class="im">E sou
+                    <span>Analista de TI</span>
+                </h2>
+                <p class="professional-summary">
+                    com experiência no desenvolvimento de projetos web utilizando PHP, JavaScript, HTML, CSS e Laravel,
+                    além de automação de processos em Excel. Busco constantemente expandir meus conhecimentos em novas
+                    tecnologias para oferecer soluções eficientes e inovadoras que atendam às necessidades dos clientes
+                    e melhorem a infraestrutura tecnológica.
+                </p>
+                <!-- FIM RESUMO SOBRE MIM -->
+                <!-- INICIO REDES SOCIAIS -->
+                <div class="social-media-buttons">
+                    <a href="https://www.linkedin.com/in/maxwell-rodrigues-32004b269/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/maxrodriguesss" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://wa.me/5519981016849" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+                <!-- FIM REDES SOCIAIS -->
+                <!-- INICIO BOTOES -->
+                <div id="cta-buttons">
+                    <div class="btn-default">
+                        <a href="Maxwell Rodrigues.pdf" download>
+                            <span>Baixar CV</span>
+                            <i class="fa-solid fa-file-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- FIM BOTOES -->
+            </div>
+            <div id="banner">
+                <img src="src/img/banner.png" alt="eu">
+            </div>
+        </section>
+        <section id="about">
+            <h1 class="title-section">Sobre mim</h1>
+            <div class="shape-about"></div>
+            <div id="banner-about">
+                <img src="src/img/eu.png" alt="eu">
+            </div>
+            <div id="about-me">
+                <!-- INICIO RESUMO SOBRE MIM -->
+                <p class="description">
+                    Desde 2022, sou estudante de análise e desenvolvimento de sistemas, e minha jornada nessa área
+                    começou quando comecei a trabalhar como auxiliar administrativo. Foi lá que descobri minha paixão
+                    por automatizar processos. Adorava criar planilhas automatizadas para agilizar as tarefas diárias.
+                    Sempre que possível, buscava formas de tornar os processos mais eficientes.
+
+                    Minha vontade de automatizar tudo o que pudesse me levou a desenvolver soluções por conta própria.
+                    Fui explorando diferentes linguagens de programação e técnicas de desenvolvimento, e foi assim que
+                    me apaixonei pela área de desenvolvimento de software.
+
+                    A oportunidade de criar soluções inovadoras para problemas complexos me encantou profundamente.
+                    Desde então, tenho buscado constantemente aprimorar minhas habilidades técnicas e expandir meu
+                    conhecimento nesse campo em constante evolução.
+                </p>
+                <!-- FIM RESUMO SOBRE MIM -->
+            </div>
+        </section>
+        <section id="all-projects">
+            <h1 class="title-section">Projetos</h1>
+            <!-- INICIO PROJETO 1 -->
+            <div id="projects">
+                <div id="banner-project">
+                    <img src="src/img/projeto curriculo.png" alt="eu">
+                </div>
+                <div id="about-project">
+                    <!-- INICIO RESUMO PROJETO -->
+                    <h1 class="title">
+                        <span>Formulário para curriculos</span>
+                    </h1>
+                    <p class="project-summary">
+                        Desenvolvi um projeto para o cadastro de currículos no banco de dados do hospital onde trabalho,
+                        utilizando um formulário personalizado. A solução foi criada para otimizar o processo de
+                        recebimento e organização dos currículos, garantindo eficiência no armazenamento e fácil acesso
+                        às informações. O foco principal foi oferecer uma interface prática e funcional para facilitar o
+                        envio de currículos pelos candidatos.
+                    </p>
+                    <!-- FIM RESUMO PROJETO -->
+                    <!-- INICIO ACESSO SITE -->
+                    <div id="projects-buttons">
+                        <div class="btn-project">
+                            <a href="https://santafilomena.com.br/site/public/trabalhe-conosco/form" target="_blank">
+                                <p>Acessar projeto <i class="fa-solid fa-arrow-right"></i></p>
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- FIM ACESSO SITE -->
+                    <!-- INICIO ACESSO GIT -->
+                    <div class="git-default">
+                        <a>
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <!-- FIM ACESSO GIT -->
+                    <!-- INICIO TECNOLOGIAS UTILIZADAS -->
+                    <div class="technologies">
+                        <i class="fa-brands fa-laravel"></i>
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <!-- FIM TECNOLOGIAS UTILIZADAS -->
+                </div>
+                <div id="division-projects"></div>
+            </div>
+            <!-- FIM PROJETO 1 -->
+                         <!-- INICIO PROJETO 1 -->
+            <div id="projects">
+                <div id="banner-project">
+                    <img src="src/img/projeto curriculo.png" alt="eu">
+                </div>
+                <div id="about-project">
+                    <!-- INICIO RESUMO PROJETO -->
+                    <h1 class="title">
+                        <span>Formulário para curriculos</span>
+                    </h1>
+                    <p class="project-summary">
+                        Desenvolvi um projeto para o cadastro de currículos no banco de dados do hospital onde trabalho,
+                        utilizando um formulário personalizado. A solução foi criada para otimizar o processo de
+                        recebimento e organização dos currículos, garantindo eficiência no armazenamento e fácil acesso
+                        às informações. O foco principal foi oferecer uma interface prática e funcional para facilitar o
+                        envio de currículos pelos candidatos.
+                    </p>
+                    <!-- FIM RESUMO PROJETO -->
+                    <!-- INICIO ACESSO SITE -->
+                    <div id="projects-buttons">
+                        <div class="btn-project">
+                            <a href="https://santafilomena.com.br/site/public/trabalhe-conosco/form" target="_blank">
+                                <p>Acessar projeto <i class="fa-solid fa-arrow-right"></i></p>
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- FIM ACESSO SITE -->
+                    <!-- INICIO ACESSO GIT -->
+                    <div class="git-default">
+                        <a>
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <!-- FIM ACESSO GIT -->
+                    <!-- INICIO TECNOLOGIAS UTILIZADAS -->
+                    <div class="technologies">
+                        <i class="fa-brands fa-laravel"></i>
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <!-- FIM TECNOLOGIAS UTILIZADAS -->
+                </div>
+                <div id="division-projects"></div>
+            </div>
+            <!-- FIM PROJETO 1 -->
+        </section>
+        <section id="skills">
+            <h1 class="title-section">HARD SKILLS</h1>
+
+            <div class="hard-skills">
+                    <p class="description-hard-skills">
+                        habilidades técnicas ou conhecimentos específicos que você aprende por meio de cursos, treinamentos ou experiências profissionais.
+                    </p>
+                    <div id="slider">
+                    <!-- INICIO ITEMS LINGUAGENS -->
+                        <div class="item" style="--delay: 0s;">
+                            <div class="skill">
+                            <img src="src/img/html.png" alt="html">
+                            <h3>HTML</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="item" style="--delay: 2s;">
+                            <div class="skill">
+                            <img src="src/img/css.png" alt="css">
+                            <h3>CSS</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="item" style="--delay: 4s;">
+                            <div class="skill">
+                            <img src="src/img/js.png" alt="JavaScript">
+                            <h3>JavaScript</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="item" style="--delay: 6s;">
+                            <div class="skill">
+                            <img src="src/img/python.png" alt="python">
+                            <h3>Python</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="item" style="--delay: 8s;">
+                            <div class="skill">
+                            <img src="src/img/php.png" alt="php">
+                            <h3>PHP</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- FIM ITEMS LINGUAGENS -->
+                        <!-- INICIO FRAMEWORKS -->
+                        <div class="item" style="--delay: 10s;">
+                            <div class="skill">
+                            <img src="src/img/laravel.png" alt="laravel">
+                            <h3>Laravel</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="item" style="--delay: 12s;">
+                            <div class="skill">
+                            <img src="src/img/bootstrap.png" alt="bootstrap">
+                            <h3>Bootstrap</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- FIM FRAMEWORKS -->
+                        <!-- INICIO ANALISE DE DADOS -->
+                        <div class="item" style="--delay: 14s;">
+                            <div class="skill">
+                            <img src="src/img/excel.png" alt="excel">
+                            <h3>Excel</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="item" style="--delay: 16s;">
+                            <div class="skill">
+                            <img src="src/img/power-bi.png" alt="power-bi">
+                            <h3>Power Bi</h3>
+                            <div class="stars">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- FIM ANALISE DE DADOS -->
+                        <!-- INICIO SQL -->
+                        <div class="item" style="--delay: 18s;">
+                            <div class="skill">
+                            <img src="src/img/oracle-db.png" alt="oracle-sql">
+                            <h3>SQL</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- FIM SQL -->
+                    </div>
+            </div>
+        </section>
+    </main>
+    <!-- Jquery -->
+    <script src="src/JS/jquery.min.js"></script>
+    <script src="src/JS/script.js"></script>
+</body>
+
+</html>
